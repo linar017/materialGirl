@@ -1,0 +1,64 @@
+﻿h1 {
+    border: 3px solid black;
+    font-size: 28px;
+    font-family: Arial,sans-serif;
+    font_weight: bold;
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: palevioletred;
+    text-align: center;
+}
+
+div {
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+}
+
+table {
+    border: 1px solid black;
+    border_collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 6px;
+}
+
+#foo {
+    color: red;
+}
+
+ul > li {
+    color: green;
+}
+
+li {
+    color: aqua;
+}
+
+a > li {
+    color: yellow;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    background-color: plum;
+}
+
+@media(max-width:800px) {
+    body {
+        background-color: blueviolet;
+    }
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
